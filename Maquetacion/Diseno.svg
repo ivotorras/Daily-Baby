@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="Diseno.svg">
   <defs
      id="defs4">
     <inkscape:path-effect
@@ -2249,9 +2249,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12"
-     inkscape:cx="1506.1817"
-     inkscape:cy="-474.94858"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="219.30091"
+     inkscape:cy="-861.10079"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2543,6 +2543,41 @@
        inkscape:export-xdpi="72"
        inkscape:export-ydpi="72" />
     <g
+       id="g4228"
+       transform="translate(-15.244407,-25.430014)"
+       inkscape:export-filename="/home/fran/Escritorio/1"
+       inkscape:export-xdpi="72"
+       inkscape:export-ydpi="72">
+      <circle
+         style="fill:#5fbcd3;fill-opacity:1;stroke:none"
+         id="path4230"
+         transform="translate(0,-227.63783)"
+         cx="635.38593"
+         cy="1074.9391"
+         r="61.619305" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:96.39231873px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         x="596.06946"
+         y="876.57538"
+         id="text4232"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4234"
+           x="596.06946"
+           y="876.57538">+</tspan></text>
+    </g>
+    <rect
+       y="-235.92354"
+       x="-6.7044897"
+       height="1157.0854"
+       width="731.99603"
+       id="rect4589"
+       style="fill:#040404;fill-opacity:0.26108375;stroke:none"
+       inkscape:export-filename="/home/fran/Escritorio/1"
+       inkscape:export-xdpi="72"
+       inkscape:export-ydpi="72" />
+    <g
        id="g4166"
        transform="translate(-5.1429074,-53.714285)"
        inkscape:export-filename="/home/fran/Escritorio/1"
@@ -2617,48 +2652,13 @@
       <g
          id="g4214" />
     </g>
-    <g
-       id="g4228"
-       transform="translate(-15.244407,-25.430014)"
-       inkscape:export-filename="/home/fran/Escritorio/1"
-       inkscape:export-xdpi="72"
-       inkscape:export-ydpi="72">
-      <circle
-         style="fill:#5fbcd3;fill-opacity:1;stroke:none"
-         id="path4230"
-         transform="translate(0,-227.63783)"
-         cx="635.38593"
-         cy="1074.9391"
-         r="61.619305" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:96.39231873px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         x="596.06946"
-         y="876.57538"
-         id="text4232"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4234"
-           x="596.06946"
-           y="876.57538">+</tspan></text>
-    </g>
-    <rect
-       y="-235.92354"
-       x="313.86295"
-       height="1151.4286"
-       width="411.42859"
-       id="rect4589"
-       style="fill:#040404;fill-opacity:0.26108375;stroke:none"
-       inkscape:export-filename="/home/fran/Escritorio/1"
-       inkscape:export-xdpi="72"
-       inkscape:export-ydpi="72" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect4337"
        width="410.01437"
        height="1057.8787"
        x="-5.1429515"
-       y="-142.37364"
+       y="-138.8381"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
        inkscape:export-ydpi="72" />
@@ -2666,7 +2666,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.41141701px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
        x="64.184441"
-       y="81.18103"
+       y="181.18103"
        id="text5482"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/fran/Escritorio/1"
@@ -2675,10 +2675,10 @@
          sodipodi:role="line"
          id="tspan5484"
          x="64.184441"
-         y="81.18103">Actividad diaria</tspan><tspan
+         y="181.18103">Actividad diaria</tspan><tspan
          sodipodi:role="line"
          x="64.184441"
-         y="105.4453"
+         y="205.4453"
          id="tspan6337" /></text>
     <g
        id="g4892"
@@ -2779,10 +2779,10 @@
     <rect
        style="fill:#87cdde;fill-opacity:1;stroke:none"
        id="rect4354"
-       width="410.02567"
-       height="260.69061"
+       width="409.99832"
+       height="260.6828"
        x="-5.1287913"
-       y="-236.17644"
+       y="-139.06711"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
        inkscape:export-ydpi="72" />
@@ -2790,7 +2790,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.84426117px;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
        x="11.430168"
-       y="5.6208119"
+       y="105.62081"
        id="text4339"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/fran/Escritorio/1"
@@ -2799,11 +2799,11 @@
          sodipodi:role="line"
          id="tspan4341"
          x="11.430168"
-         y="5.6208119"
+         y="105.62081"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.84426117px;font-family:Roboto;-inkscape-font-specification:Roboto">El nombre del bebe</tspan></text>
     <g
        id="g4892-2"
-       transform="matrix(4.2303645,0,0,4.2303645,142.17009,-173.3475)"
+       transform="matrix(4.2303645,0,0,4.2303645,142.17009,-73.3475)"
        style="fill:#37abc8;fill-opacity:1"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
@@ -2903,7 +2903,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.84426117px;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#37abc8;fill-opacity:1;stroke:none"
        x="145.87427"
-       y="-196.66478"
+       y="-96.66478"
        id="text4339-8"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/fran/Escritorio/1"
@@ -2912,19 +2912,19 @@
          sodipodi:role="line"
          id="tspan4341-1"
          x="145.87427"
-         y="-196.66478"
+         y="-96.66478"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.84426117px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#37abc8;fill-opacity:1">22/09/2015</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4622"
-       y="141.18103"
+       y="241.18103"
        x="64.184441"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.41141701px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
        xml:space="preserve"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
        inkscape:export-ydpi="72"><tspan
-         y="141.18103"
+         y="241.18103"
          x="64.184441"
          id="tspan4624"
          sodipodi:role="line">Calendario</tspan></text>
@@ -2932,7 +2932,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.41141701px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
        x="64.184441"
-       y="201.18103"
+       y="301.18103"
        id="text4626"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/fran/Escritorio/1"
@@ -2941,26 +2941,26 @@
          sodipodi:role="line"
          id="tspan4628"
          x="64.184441"
-         y="201.18103">Sleep time</tspan><tspan
+         y="301.18103">Sleep time</tspan><tspan
          sodipodi:role="line"
          x="64.184441"
-         y="225.4453"
+         y="325.44531"
          id="tspan6339" /></text>
     <text
        sodipodi:linespacing="125%"
        id="text4630"
-       y="261.18103"
+       y="361.18103"
        x="64.184441"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.41141701px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
        xml:space="preserve"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
        inkscape:export-ydpi="72"><tspan
-         y="261.18103"
+         y="361.18103"
          x="64.184441"
          id="tspan4632"
          sodipodi:role="line">Algo que se rellene</tspan><tspan
-         y="285.44531"
+         y="385.44531"
          x="64.184441"
          sodipodi:role="line"
          id="tspan7367" /></text>
@@ -2968,7 +2968,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.41141701px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
        x="64.184441"
-       y="321.18103"
+       y="421.18103"
        id="text4634"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/fran/Escritorio/1"
@@ -2977,24 +2977,24 @@
          sodipodi:role="line"
          id="tspan4636"
          x="64.184441"
-         y="321.18103">Lionel Messi</tspan></text>
+         y="421.18103">Lionel Messi</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4638"
-       y="381.18103"
+       y="481.18103"
        x="64.184441"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.41141701px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
        xml:space="preserve"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
        inkscape:export-ydpi="72"><tspan
-         y="381.18103"
+         y="481.18103"
          x="64.184441"
          id="tspan4640"
          sodipodi:role="line">Settings</tspan></text>
     <g
        id="g9256"
-       transform="matrix(0.05125841,0,0,0.05125841,17.20627,57.753498)"
+       transform="matrix(0.05125841,0,0,0.05125841,17.20627,157.7535)"
        style="fill:#666666;fill-opacity:1"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
@@ -3056,7 +3056,7 @@
     </g>
     <g
        id="g7313"
-       transform="matrix(0.59888804,0,0,0.59888804,14.266595,117.97451)"
+       transform="matrix(0.59888804,0,0,0.59888804,14.266595,217.97451)"
        style="fill:#666666;fill-opacity:1">
       <g
          id="g7260"
@@ -3066,7 +3066,7 @@
            style="fill:#666666;fill-opacity:1">
           <polygon
              id="polygon7264"
-             points="19.195,37.827 19.195,19.034 15.523,19.034 10.553,21.354 11.275,24.635 14.858,22.918 14.912,22.918 14.912,37.827 "
+             points="10.553,21.354 11.275,24.635 14.858,22.918 14.912,22.918 14.912,37.827 19.195,37.827 19.195,19.034 15.523,19.034 "
              style="fill:#666666;fill-opacity:1" />
           <path
              id="path7266"
@@ -3143,7 +3143,7 @@
     </g>
     <g
        id="g4963"
-       transform="matrix(0.05924929,0,0,0.05924929,15.300393,297.77464)"
+       transform="matrix(0.05924929,0,0,0.05924929,15.300393,397.77464)"
        style="fill:#666666"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
@@ -3205,7 +3205,7 @@
     </g>
     <g
        id="g9769"
-       transform="matrix(0.09290703,0,0,0.09290703,17.631062,359.47111)"
+       transform="matrix(0.09290703,0,0,0.09290703,17.631062,459.47111)"
        style="fill:#666666;fill-opacity:1"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
@@ -3873,7 +3873,7 @@
     </g>
     <g
        id="g7826"
-       transform="matrix(0.04942365,0,0,0.04942365,15.464469,241.79541)"
+       transform="matrix(0.04942365,0,0,0.04942365,15.464469,341.79541)"
        style="fill:#666666;fill-opacity:1"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
@@ -3939,7 +3939,7 @@
     </g>
     <g
        id="g8557"
-       transform="matrix(0.10666872,0,0,0.10666872,12.949097,174.79799)"
+       transform="matrix(0.10666872,0,0,0.10666872,12.949097,274.79799)"
        style="fill:#666666;fill-opacity:1"
        inkscape:export-filename="/home/fran/Escritorio/1"
        inkscape:export-xdpi="72"
@@ -4256,7 +4256,7 @@
     </g>
     <g
        id="g7880-3"
-       transform="matrix(0,0.08452573,-0.08452573,0,395,-8.6952392)"
+       transform="matrix(0,0.08452573,-0.08452573,0,395,91.304761)"
        style="fill:#ffffff;fill-opacity:1">
       <g
          id="g7839-1"
@@ -4266,7 +4266,7 @@
            style="fill:#ffffff;fill-opacity:1">
           <polygon
              id="polygon7842-3"
-             points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153 "
+             points="247.35,153 94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 "
              style="fill:#ffffff;fill-opacity:1" />
         </g>
       </g>
@@ -5128,7 +5128,7 @@
            height="88.275864"
            x="3110.6733"
            y="403.54678" /></flowRegion><flowPara
-         id="flowPara12192"></flowPara></flowRoot>    <rect
+         id="flowPara12192" /></flowRoot>    <rect
        inkscape:export-ydpi="72"
        inkscape:export-xdpi="72"
        inkscape:export-filename="/home/fran/Escritorio/2"
@@ -5725,102 +5725,78 @@
          id="tspan12671"
          sodipodi:role="line">El nombre del bebe</tspan></text>
     <g
-       inkscape:export-ydpi="72"
-       inkscape:export-xdpi="72"
-       inkscape:export-filename="/home/fran/Escritorio/1"
-       style="fill:#f06292;fill-opacity:1"
-       transform="matrix(4.2303645,0,0,4.2303645,142.17009,1446.6525)"
-       id="g12673">
+       id="g7704"
+       transform="matrix(0.36164365,0,0,0.36164365,132.68273,1441.7618)"
+       style="fill:#f06292;fill-opacity:1">
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12675">
-        <g
-           style="fill:#f06292;fill-opacity:1"
-           id="g12677">
-          <path
-             style="fill:#f06292;fill-opacity:1"
-             inkscape:connector-curvature="0"
-             d="M 15.547,0 C 7.128,0 0.277,6.851 0.277,15.27 c 0,7.268 5.107,13.363 11.921,14.896 -0.787,-0.76 -1.339,-1.758 -1.541,-2.879 -4.739,-1.935 -8.088,-6.59 -8.088,-12.018 0,-5.245 3.129,-9.77 7.617,-11.813 -0.178,1.013 0.582,2.18 1.447,3.227 0.783,0.947 0.447,1.662 -0.157,2.162 -0.19,0.157 -0.262,0.416 -0.18,0.649 0.082,0.232 0.3,0.389 0.546,0.393 7.777,0.116 9.667,-4.306 10.098,-5.904 3.929,2.233 6.583,6.454 6.583,11.286 0,5.139 -3.003,9.59 -7.346,11.691 -0.135,1.138 -0.629,2.164 -1.363,2.967 6.348,-1.852 11.001,-7.72 11.001,-14.658 C 30.817,6.851 23.966,0 15.547,0 Z"
-             id="path12679" />
-          <circle
-             style="fill:#f06292;fill-opacity:1"
-             cx="11.476"
-             cy="14.9"
-             r="1.719"
-             id="circle12681" />
-          <circle
-             style="fill:#f06292;fill-opacity:1"
-             cx="19.497999"
-             cy="14.9"
-             r="1.719"
-             id="circle12683" />
-          <path
-             style="fill:#f06292;fill-opacity:1"
-             inkscape:connector-curvature="0"
-             d="m 10.825,24.711 c 0.396,-1.23 1.229,-2.262 2.312,-2.919 0.086,-1.406 1.238,-2.521 2.65,-2.521 1.368,0 2.494,1.044 2.64,2.388 1.201,0.651 2.121,1.752 2.541,3.074 0.688,-0.717 1.093,-1.587 1.093,-2.524 0,-2.454 -2.755,-4.442 -6.152,-4.442 -3.398,0 -6.153,1.988 -6.153,4.442 0,0.928 0.395,1.787 1.069,2.502 z"
-             id="path12685" />
-          <path
-             style="fill:#f06292;fill-opacity:1"
-             inkscape:connector-curvature="0"
-             d="m 16.485,24.55 c -0.187,-0.062 -0.386,-0.097 -0.592,-0.097 -0.225,0 -0.439,0.041 -0.639,0.113 0.178,0.047 0.147,0.055 -0.038,0.014 -0.706,0.273 -1.21,0.957 -1.21,1.76 0,0.031 0.003,0.062 0.005,0.094 0.598,0.141 1.234,0.217 1.897,0.217 0.65,0 1.276,-0.074 1.865,-0.209 0.001,-0.033 0.005,-0.066 0.005,-0.102 0.001,-0.834 -0.543,-1.541 -1.293,-1.79 z"
-             id="path12687" />
-          <path
-             style="fill:#f06292;fill-opacity:1"
-             inkscape:connector-curvature="0"
-             d="m 15.837,20.059 c -0.959,0 -1.779,0.59 -2.121,1.426 0.665,-0.301 1.401,-0.472 2.178,-0.472 0.722,0 1.41,0.147 2.038,0.408 -0.358,-0.802 -1.16,-1.362 -2.095,-1.362 z"
-             id="path12689" />
-          <path
-             style="fill:#f06292;fill-opacity:1"
-             inkscape:connector-curvature="0"
-             d="m 15.894,21.588 c -2.62,0 -4.752,2.132 -4.752,4.752 0,2.619 2.132,4.752 4.752,4.752 2.619,0 4.751,-2.132 4.751,-4.752 0,-2.621 -2.132,-4.752 -4.751,-4.752 z m 0,7.211 c -1.357,0 -2.46,-1.104 -2.46,-2.459 0,-1.355 1.104,-2.46 2.46,-2.46 1.355,0 2.459,1.104 2.459,2.46 0,1.356 -1.103,2.459 -2.459,2.459 z"
-             id="path12691" />
-        </g>
+         id="g7658"
+         style="fill:#f06292;fill-opacity:1">
+        <path
+           id="path7660"
+           d="m 49.419,244.723 c 16.438,45.334 54.559,79.707 100.532,93.25 8.144,15.661 24.5,26.402 43.342,26.402 18.84,0 35.196,-10.741 43.336,-26.402 45.974,-13.543 84.098,-47.922 100.532,-93.25 27.304,-0.311 49.426,-22.614 49.426,-49.998 0,-27.379 -22.116,-49.687 -49.426,-50 C 326.657,115.75 307.269,91.259 282.663,73.786 l 0,19.288 c 0,1.37 -0.226,2.685 -0.548,3.958 18.273,15.82 32.272,36.477 39.524,60.252 l 2.345,7.699 7.958,-1.172 c 1.814,-0.262 3.276,-0.387 4.641,-0.387 17.256,0 31.298,14.042 31.298,31.301 0,17.264 -14.042,31.305 -31.298,31.305 -1.364,0 -2.826,-0.128 -4.616,-0.39 l -7.977,-1.193 -2.351,7.715 c -11.923,39.087 -42.052,69.715 -79.549,84.231 0.006,-0.286 0.043,-0.566 0.043,-0.853 0,-9.268 -2.643,-17.921 -7.155,-25.318 4.524,-4.865 7.155,-10.607 7.155,-16.843 0,-17.963 -21.452,-32.029 -48.841,-32.029 -27.392,0 -48.841,14.066 -48.841,32.029 0,6.235 2.631,11.978 7.152,16.843 -4.509,7.397 -7.152,16.051 -7.152,25.318 0,0.286 0.037,0.566 0.043,0.853 -37.503,-14.517 -67.626,-45.145 -79.549,-84.231 l -2.351,-7.715 -7.974,1.193 c -1.796,0.262 -3.264,0.39 -4.622,0.39 -17.26,0 -31.295,-14.041 -31.295,-31.305 0,-17.259 14.036,-31.301 31.295,-31.301 1.352,0 2.825,0.125 4.634,0.387 l 7.961,1.172 2.345,-7.699 c 7.979,-26.178 24.167,-48.519 45.212,-64.828 l 0,-22.817 C 82.596,87.267 60.791,113.35 49.417,144.712 22.116,145.038 0,167.345 0,194.725 c 0,27.383 22.116,49.687 49.419,49.998 z m 113.734,70.811 c 0,-5.462 1.571,-10.528 4.128,-14.949 4.095,-7.094 10.917,-12.373 19.104,-14.31 2.226,-0.535 4.521,-0.877 6.908,-0.877 2.387,0 4.683,0.354 6.905,0.877 8.185,1.931 15.004,7.216 19.103,14.31 2.551,4.421 4.128,9.487 4.128,14.949 0,2.338 -0.322,4.585 -0.834,6.771 -2.362,10.182 -9.877,18.299 -19.649,21.635 -3.051,1.048 -6.26,1.736 -9.658,1.736 -3.398,0 -6.61,-0.688 -9.658,-1.736 -9.773,-3.336 -17.299,-11.459 -19.649,-21.635 -0.497,-2.186 -0.828,-4.433 -0.828,-6.771 z m 30.141,-55.491 c 18.109,0 30.135,8.026 30.135,13.324 0,0.913 -0.475,1.918 -1.163,2.935 -8.11,-6.011 -18.115,-9.615 -28.972,-9.615 -10.857,0 -20.864,3.604 -28.981,9.615 -0.679,-1.017 -1.16,-2.021 -1.16,-2.935 0,-5.298 12.023,-13.324 30.141,-13.324 z"
+           inkscape:connector-curvature="0"
+           style="fill:#f06292;fill-opacity:1" />
+        <path
+           id="path7662"
+           d="m 153.8,213.169 c 16.082,0 16.082,-24.941 0,-24.941 -16.082,0 -16.082,24.941 0,24.941 z"
+           inkscape:connector-curvature="0"
+           style="fill:#f06292;fill-opacity:1" />
+        <path
+           id="path7664"
+           d="m 232.782,211.61 c 16.082,0 16.082,-24.941 0,-24.941 -16.081,0 -16.081,24.941 0,24.941 z"
+           inkscape:connector-curvature="0"
+           style="fill:#f06292;fill-opacity:1" />
+        <path
+           id="path7666"
+           d="m 142.371,124.061 2.076,0 1.882,-0.88 c 17.156,-8.017 29.094,-14.273 37.518,-19.284 3.879,1.589 8.114,2.5 12.559,2.5 4.445,0 8.677,-0.911 12.562,-2.5 8.428,5.011 20.362,11.268 37.51,19.284 l 1.888,0.88 2.076,0 c 9.858,0 18.115,-6.616 20.812,-15.606 0.591,-1.982 1.011,-4.04 1.011,-6.217 l 0,-12.94 0,-22.302 0,-22.947 c 0,-12.032 -9.785,-21.823 -21.823,-21.823 l -2.076,0 -1.888,0.88 c -10.498,4.908 -19.047,9.158 -26.05,12.875 -4.433,2.35 -8.202,4.469 -11.46,6.409 -2.898,-1.185 -6.028,-1.845 -9.268,-2.168 -1.099,-0.112 -2.164,-0.332 -3.294,-0.332 -1.13,0 -2.201,0.225 -3.297,0.338 -3.236,0.323 -6.366,0.977 -9.262,2.167 -3.267,-1.945 -7.027,-4.058 -11.46,-6.408 -7.008,-3.718 -15.551,-7.962 -26.058,-12.876 l -1.882,-0.898 -2.076,0 c -12.035,0 -21.824,9.789 -21.824,21.824 l 0,19.516 0,21.556 0,17.123 c 0,2.177 0.417,4.232 1.011,6.217 2.7,8.995 10.954,15.612 20.813,15.612 z m 51.34,-65.203 c 0.88,-0.162 1.771,-0.274 2.694,-0.274 0.923,0 1.82,0.106 2.694,0.274 1.599,0.298 3.084,0.904 4.46,1.684 1.863,1.06 3.478,2.488 4.713,4.229 0.073,0.098 0.159,0.191 0.231,0.298 1.547,2.314 2.448,5.082 2.448,8.062 0,2.07 -0.45,4.034 -1.236,5.824 -0.341,0.786 -0.749,1.541 -1.212,2.244 -1.022,1.522 -2.326,2.831 -3.823,3.879 -0.354,0.243 -0.743,0.435 -1.121,0.648 -2.119,1.208 -4.542,1.957 -7.154,1.957 -2.612,0 -5.033,-0.749 -7.158,-1.957 -0.374,-0.213 -0.761,-0.405 -1.117,-0.648 -1.501,-1.048 -2.804,-2.357 -3.821,-3.879 -0.475,-0.704 -0.874,-1.458 -1.215,-2.238 -0.789,-1.784 -1.236,-3.754 -1.236,-5.824 0,-2.98 0.91,-5.754 2.457,-8.068 0.219,-0.326 0.487,-0.6 0.722,-0.898 1.16,-1.465 2.582,-2.694 4.217,-3.623 1.37,-0.786 2.856,-1.386 4.457,-1.69 z m 58.136,-17.61 c 1.023,0.518 1.718,1.574 1.718,2.789 l 0,13.512 0,20.532 0,24.15 c 0,0.25 -0.146,0.448 -0.195,0.679 -0.219,0.904 -0.719,1.702 -1.522,2.106 -9.365,-4.445 -19.272,-9.502 -27.474,-14.029 0.499,-0.785 0.9,-1.638 1.339,-2.469 2.436,-4.619 3.952,-9.806 3.952,-15.387 0,-1.486 -0.25,-2.898 -0.433,-4.326 -0.407,-3.075 -1.108,-6.056 -2.289,-8.805 -0.719,-1.659 -1.607,-3.218 -2.569,-4.722 0.932,-0.518 1.905,-1.035 2.874,-1.564 1.942,-1.048 3.927,-2.107 5.991,-3.179 6.016,-3.143 12.422,-6.349 18.608,-9.287 z m -112.594,13.819 0,-11.03 c 0,-1.215 0.703,-2.277 1.72,-2.789 5.45,2.588 11.055,5.383 16.443,8.163 2.819,1.461 5.55,2.895 8.163,4.308 0.971,0.523 1.939,1.05 2.874,1.568 -0.968,1.501 -1.851,3.06 -2.563,4.719 -0.986,2.274 -1.671,4.688 -2.125,7.188 -0.35,1.933 -0.6,3.91 -0.6,5.943 0,5.581 1.516,10.763 3.955,15.388 0.436,0.831 0.834,1.678 1.34,2.463 -8.205,4.527 -18.109,9.59 -27.475,14.039 -0.81,-0.414 -1.309,-1.206 -1.525,-2.11 -0.058,-0.229 -0.195,-0.43 -0.195,-0.679 l 0,-27.061 0,-20.11 -0.012,0 z"
+           inkscape:connector-curvature="0"
+           style="fill:#f06292;fill-opacity:1" />
       </g>
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12693" />
+         id="g7668"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12695" />
+         id="g7670"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12697" />
+         id="g7672"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12699" />
+         id="g7674"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12701" />
+         id="g7676"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12703" />
+         id="g7678"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12705" />
+         id="g7680"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12707" />
+         id="g7682"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12709" />
+         id="g7684"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12711" />
+         id="g7686"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12713" />
+         id="g7688"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12715" />
+         id="g7690"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12717" />
+         id="g7692"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12719" />
+         id="g7694"
+         style="fill:#f06292;fill-opacity:1" />
       <g
-         style="fill:#f06292;fill-opacity:1"
-         id="g12721" />
+         id="g7696"
+         style="fill:#f06292;fill-opacity:1" />
     </g>
     <text
        inkscape:export-ydpi="72"
@@ -6307,31 +6283,6 @@
        cx="979.69641"
        id="circle12929"
        style="opacity:1;fill:#f06292;fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <g
-       inkscape:export-ydpi="72"
-       inkscape:export-xdpi="72"
-       inkscape:export-filename="/home/fran/Escritorio/2"
-       transform="translate(884.58358,1604.1843)"
-       id="g12931">
-      <circle
-         r="61.619305"
-         cy="1074.9391"
-         cx="635.38593"
-         transform="translate(0,-227.63783)"
-         id="circle12933"
-         style="fill:#f48fb1;fill-opacity:1;stroke:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text12935"
-         y="876.57538"
-         x="596.06946"
-         style="font-style:normal;font-weight:normal;font-size:96.39231873px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="876.57538"
-           x="596.06946"
-           id="tspan12937"
-           sodipodi:role="line">+</tspan></text>
-    </g>
     <g
        inkscape:export-ydpi="72"
        inkscape:export-xdpi="72"
@@ -8335,5 +8286,30 @@
        cy="1868.8237"
        r="22.339424"
        transform="scale(-1,1)" />
+    <g
+       inkscape:export-ydpi="72"
+       inkscape:export-xdpi="72"
+       inkscape:export-filename="/home/fran/Escritorio/2"
+       transform="translate(884.58358,1604.1843)"
+       id="g12931">
+      <circle
+         r="61.619305"
+         cy="1074.9391"
+         cx="635.38593"
+         transform="translate(0,-227.63783)"
+         id="circle12933"
+         style="fill:#f48fb1;fill-opacity:1;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text12935"
+         y="876.57538"
+         x="596.06946"
+         style="font-style:normal;font-weight:normal;font-size:96.39231873px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="876.57538"
+           x="596.06946"
+           id="tspan12937"
+           sodipodi:role="line">+</tspan></text>
+    </g>
   </g>
 </svg>
