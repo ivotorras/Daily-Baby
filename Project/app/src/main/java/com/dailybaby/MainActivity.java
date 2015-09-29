@@ -1,10 +1,14 @@
 package com.dailybaby;
 
 import android.app.Activity;
+<<<<<<< HEAD
+import android.content.Intent;
+=======
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.ActionBarActivity;
+>>>>>>> 50c0f11e66f6a1babc511179359cfe81a7cdbc68
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,16 +17,40 @@ import android.widget.TextView;
 
 import com.dataBase.BaseDeDatos;
 
+<<<<<<< HEAD
+public class MainActivity extends Activity {
+=======
 
 public class MainActivity extends Activity {
 
     private TextView txt;
+>>>>>>> 50c0f11e66f6a1babc511179359cfe81a7cdbc68
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
+        nuevotrhead();
+    }
+
+    private void nuevotrhead(){
+        Thread timer= new Thread(){
+            public void run(){
+                try{
+                    sleep(2000);
+                }catch (InterruptedException e){
+                    System.out.println(e);
+                }finally {
+                    Intent foo= new Intent(MainActivity.this, Principal.class );
+                    startActivity(foo);
+                }
+            }
+        };
+        timer.start();
+=======
         txt = (TextView)findViewById(R.id.textView);
+>>>>>>> 50c0f11e66f6a1babc511179359cfe81a7cdbc68
     }
 
     @Override
