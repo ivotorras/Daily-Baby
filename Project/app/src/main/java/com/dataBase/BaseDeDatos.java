@@ -80,6 +80,29 @@ public class BaseDeDatos extends SQLiteOpenHelper{
     }
 
 
+
+       @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    public void chVio(View v){
+        Window window = this.getWindow();
+        View view = this.getWindow().getDecorView();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.setStatusBarColor(this.getResources().getColor(R.color.violeta));
+        //window.setBackgroundColor(R.color.bgvioleta);
+        view.setBackgroundColor(Color.parseColor("#FF9575cd"));
+    }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    public void chAzul(View v){
+        Window window = this.getWindow();
+        View view = this.getWindow().getDecorView();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        window.setStatusBarColor(this.getResources().getColor(R.color.azul));
+        //window.setBackgroundColor(R.color.bgazul);
+        view.setBackgroundColor(Color.parseColor("#7986CB"));
+    }
+
     * */
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVesion) {
