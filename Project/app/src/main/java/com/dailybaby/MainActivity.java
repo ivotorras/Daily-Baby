@@ -1,17 +1,35 @@
 package com.dailybaby;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        nuevotrhead();
+    }
+
+    private void nuevotrhead(){
+        Thread timer= new Thread(){
+            public void run(){
+                try{
+                    sleep(2000);
+                }catch (InterruptedException e){
+                    System.out.println(e);
+                }finally {
+                    Intent foo= new Intent(MainActivity.this, Principal.class );
+                    startActivity(foo);
+                }
+            }
+        };
+        timer.start();
     }
 
     @Override
