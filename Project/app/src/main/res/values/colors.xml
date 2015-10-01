@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stsDefault">#9E9E9E</color>
+    <color name="cdefault">#BDBDBD</color>
+
+    <color name="stsRosa">#E91E63</color>
+    <color name="rosa">#F06292</color>
+
+    <color name="stsCeleste">#2196F3</color>
+    <color name="celeste">#64B5F6</color>
+</resources>
