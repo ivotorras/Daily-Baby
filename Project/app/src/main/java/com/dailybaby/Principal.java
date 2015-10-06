@@ -1,6 +1,8 @@
 package com.dailybaby;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.content.res.TypedArray;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -16,7 +18,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 
 public class Principal extends ActionBarActivity
@@ -31,6 +36,12 @@ public class Principal extends ActionBarActivity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+    private ArrayList<Item_objct> BarraItms;
+    private TypedArray NavIcons;
+    private ListView NavList;
+    NavigationAdapter Adaptador;
+    private String[] titulos;
+    private ListView ListDef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +56,31 @@ public class Principal extends ActionBarActivity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+
+        ListDef = (ListView) findViewById(R.id.navigation_drawer);
+        //Declaramos el header el caul sera el layout de header.xml
+        View header = getLayoutInflater().inflate(R.layout.header, null);
+        //Establecemos header
+
+        ListDef.addHeaderView(header);
+        //Tomamos listado  de imgs desde drawable
+
+        NavIcons = getResources().obtainTypedArray(R.array.iconos);
+
+        titulos = getResources().getStringArray(R.array.estrings);
+
+        BarraItms = new ArrayList<Item_objct>();
+
+        BarraItms.add(new Item_objct(titulos[0], NavIcons.getResourceId(0, -1)));
+
+        BarraItms.add(new Item_objct(titulos[1], NavIcons.getResourceId(1, -1)));
+
+        BarraItms.add(new Item_objct(titulos[2], NavIcons.getResourceId(2, -1)));
+
+        BarraItms.add(new Item_objct(titulos[3], NavIcons.getResourceId(3, -1)));
+
+        Adaptador= new NavigationAdapter(this,BarraItms);
+        ListDef.setAdapter(Adaptador);
     }
 
     @Override
@@ -56,22 +92,6 @@ public class Principal extends ActionBarActivity
                 .commit();
     }
 
-    public void onSectionAttached(int number) {
-        switch (number) {
-            case 1:
-                mTitle = "Actividad Diaria";//getString(R.string.title_section1);
-                break;
-            case 2:
-                mTitle = "Calendario";
-                break;
-            case 3:
-                mTitle = "Sleep Time";
-                break;
-            case 4:
-                mTitle = "Settings";
-                break;
-        }
-    }
 
     public void restoreActionBar() {
         ActionBar actionBar = getSupportActionBar();
@@ -81,37 +101,6 @@ public class Principal extends ActionBarActivity
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        if (!mNavigationDrawerFragment.isDrawerOpen()) {
-            // Only show items in the action bar relevant to this screen
-            // if the drawer is not showing. Otherwise, let the drawer
-            // decide what to show in the action bar.
-            getMenuInflater().inflate(R.menu.principal, menu);
-            restoreActionBar();
-            return true;
-        }
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    /**
-     * A placeholder fragment containing a simple view.
-     */
     public static class PlaceholderFragment extends Fragment {
         /**
          * The fragment argument representing the section number for this
@@ -141,12 +130,12 @@ public class Principal extends ActionBarActivity
             return rootView;
         }
 
-        @Override
+       /* @Override
         public void onAttach(Activity activity) {
             super.onAttach(activity);
             ((Principal) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
-        }
+        }*/
     }
 
 }

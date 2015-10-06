@@ -1,13 +1,23 @@
 <resources>
     <string name="app_name">DailyBaby</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
     <string name="title_activity_principal">Principal</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+
+
+    <string-array name="estrings">
+        <item>Actividad Diaria</item>
+        <item>Calendario</item>
+        <item>Sleep Time</item>
+        <item>Ajustes</item>
+    </string-array>
+
+    <array name="iconos">
+        <item>@drawable/icono_act</item>
+        <item>@drawable/icono_cale</item>
+        <item>@drawable/icono_bb</item>
+        <item>@drawable/icono_eng</item>
+    </array>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

@@ -11,7 +11,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="Diseno.svg"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    version="1.1"
    id="svg2"
    height="1280"
@@ -19,17 +19,17 @@
   <sodipodi:namedview
      inkscape:window-maximized="1"
      inkscape:window-y="24"
-     inkscape:window-x="0"
+     inkscape:window-x="65"
      inkscape:window-height="744"
-     inkscape:window-width="1366"
+     inkscape:window-width="1301"
      inkscape:guide-bbox="true"
      showguides="false"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="585.58126"
+     inkscape:cy="1016.6779"
      inkscape:cx="2177.5062"
-     inkscape:zoom="0.64"
+     inkscape:zoom="1.8101934"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -2595,7 +2595,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2913,16 +2913,6 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc" />
     </g>
-    <rect
-       style="fill:#87cdde;fill-opacity:1;stroke:none"
-       id="rect4354"
-       width="119.46551"
-       height="75.957878"
-       x="1975.2874"
-       y="15.917263"
-       inkscape:export-filename="/home/fran/Escritorio/1"
-       inkscape:export-xdpi="72"
-       inkscape:export-ydpi="72" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.36499166px;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
@@ -2939,102 +2929,120 @@
          y="87.214508"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.36499166px;font-family:Roboto;-inkscape-font-specification:Roboto">El nombre del bebe</tspan></text>
     <g
-       id="g4892-2"
-       transform="matrix(1.2326457,0,0,1.2326457,2018.2074,35.066627)"
-       style="fill:#37abc8;fill-opacity:1"
-       inkscape:export-filename="/home/fran/Escritorio/1"
-       inkscape:export-xdpi="72"
-       inkscape:export-ydpi="72">
+       id="g5345"
+       inkscape:export-filename="/home/agus/Documentos/Daily-Baby/Project/app/src/main/res/drawable/img_bebe.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/fran/Escritorio/1"
+         y="15.917263"
+         x="1975.2874"
+         height="75.957878"
+         width="119.46551"
+         id="rect4354"
+         style="fill:#87cdde;fill-opacity:1;stroke:none" />
       <g
-         id="g4838-0"
-         style="fill:#37abc8;fill-opacity:1">
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/fran/Escritorio/1"
+         style="fill:#37abc8;fill-opacity:1"
+         transform="matrix(1.2326457,0,0,1.2326457,2018.2074,35.066627)"
+         id="g4892-2">
         <g
-           id="g4840-8"
-           style="fill:#37abc8;fill-opacity:1">
-          <path
-             id="path4842-7"
-             d="M 15.547,0 C 7.128,0 0.277,6.851 0.277,15.27 c 0,7.268 5.107,13.363 11.921,14.896 -0.787,-0.76 -1.339,-1.758 -1.541,-2.879 -4.739,-1.935 -8.088,-6.59 -8.088,-12.018 0,-5.245 3.129,-9.77 7.617,-11.813 -0.178,1.013 0.582,2.18 1.447,3.227 0.783,0.947 0.447,1.662 -0.157,2.162 -0.19,0.157 -0.262,0.416 -0.18,0.649 0.082,0.232 0.3,0.389 0.546,0.393 7.777,0.116 9.667,-4.306 10.098,-5.904 3.929,2.233 6.583,6.454 6.583,11.286 0,5.139 -3.003,9.59 -7.346,11.691 -0.135,1.138 -0.629,2.164 -1.363,2.967 6.348,-1.852 11.001,-7.72 11.001,-14.658 C 30.817,6.851 23.966,0 15.547,0 Z"
-             inkscape:connector-curvature="0"
-             style="fill:#37abc8;fill-opacity:1" />
-          <circle
-             id="circle4844-0"
-             r="1.719"
-             cy="14.9"
-             cx="11.476"
-             style="fill:#37abc8;fill-opacity:1" />
-          <circle
-             id="circle4846-4"
-             r="1.719"
-             cy="14.9"
-             cx="19.497999"
-             style="fill:#37abc8;fill-opacity:1" />
-          <path
-             id="path4848-7"
-             d="m 10.825,24.711 c 0.396,-1.23 1.229,-2.262 2.312,-2.919 0.086,-1.406 1.238,-2.521 2.65,-2.521 1.368,0 2.494,1.044 2.64,2.388 1.201,0.651 2.121,1.752 2.541,3.074 0.688,-0.717 1.093,-1.587 1.093,-2.524 0,-2.454 -2.755,-4.442 -6.152,-4.442 -3.398,0 -6.153,1.988 -6.153,4.442 0,0.928 0.395,1.787 1.069,2.502 z"
-             inkscape:connector-curvature="0"
-             style="fill:#37abc8;fill-opacity:1" />
-          <path
-             id="path4850-9"
-             d="m 16.485,24.55 c -0.187,-0.062 -0.386,-0.097 -0.592,-0.097 -0.225,0 -0.439,0.041 -0.639,0.113 0.178,0.047 0.147,0.055 -0.038,0.014 -0.706,0.273 -1.21,0.957 -1.21,1.76 0,0.031 0.003,0.062 0.005,0.094 0.598,0.141 1.234,0.217 1.897,0.217 0.65,0 1.276,-0.074 1.865,-0.209 0.001,-0.033 0.005,-0.066 0.005,-0.102 0.001,-0.834 -0.543,-1.541 -1.293,-1.79 z"
-             inkscape:connector-curvature="0"
-             style="fill:#37abc8;fill-opacity:1" />
-          <path
-             id="path4852-2"
-             d="m 15.837,20.059 c -0.959,0 -1.779,0.59 -2.121,1.426 0.665,-0.301 1.401,-0.472 2.178,-0.472 0.722,0 1.41,0.147 2.038,0.408 -0.358,-0.802 -1.16,-1.362 -2.095,-1.362 z"
-             inkscape:connector-curvature="0"
-             style="fill:#37abc8;fill-opacity:1" />
-          <path
-             id="path4854-2"
-             d="m 15.894,21.588 c -2.62,0 -4.752,2.132 -4.752,4.752 0,2.619 2.132,4.752 4.752,4.752 2.619,0 4.751,-2.132 4.751,-4.752 0,-2.621 -2.132,-4.752 -4.751,-4.752 z m 0,7.211 c -1.357,0 -2.46,-1.104 -2.46,-2.459 0,-1.355 1.104,-2.46 2.46,-2.46 1.355,0 2.459,1.104 2.459,2.46 0,1.356 -1.103,2.459 -2.459,2.459 z"
-             inkscape:connector-curvature="0"
-             style="fill:#37abc8;fill-opacity:1" />
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4838-0">
+          <g
+             style="fill:#37abc8;fill-opacity:1"
+             id="g4840-8">
+            <path
+               style="fill:#37abc8;fill-opacity:1"
+               inkscape:connector-curvature="0"
+               d="M 15.547,0 C 7.128,0 0.277,6.851 0.277,15.27 c 0,7.268 5.107,13.363 11.921,14.896 -0.787,-0.76 -1.339,-1.758 -1.541,-2.879 -4.739,-1.935 -8.088,-6.59 -8.088,-12.018 0,-5.245 3.129,-9.77 7.617,-11.813 -0.178,1.013 0.582,2.18 1.447,3.227 0.783,0.947 0.447,1.662 -0.157,2.162 -0.19,0.157 -0.262,0.416 -0.18,0.649 0.082,0.232 0.3,0.389 0.546,0.393 7.777,0.116 9.667,-4.306 10.098,-5.904 3.929,2.233 6.583,6.454 6.583,11.286 0,5.139 -3.003,9.59 -7.346,11.691 -0.135,1.138 -0.629,2.164 -1.363,2.967 6.348,-1.852 11.001,-7.72 11.001,-14.658 C 30.817,6.851 23.966,0 15.547,0 Z"
+               id="path4842-7" />
+            <circle
+               style="fill:#37abc8;fill-opacity:1"
+               cx="11.476"
+               cy="14.9"
+               r="1.719"
+               id="circle4844-0"
+               d="m 13.195,14.9 c 0,0.949377 -0.769623,1.719 -1.719,1.719 -0.949378,0 -1.7190001,-0.769623 -1.7190001,-1.719 0,-0.949378 0.7696221,-1.719 1.7190001,-1.719 0.949377,0 1.719,0.769622 1.719,1.719 z" />
+            <circle
+               style="fill:#37abc8;fill-opacity:1"
+               cx="19.497999"
+               cy="14.9"
+               r="1.719"
+               id="circle4846-4"
+               d="m 21.216999,14.9 c 0,0.949377 -0.769622,1.719 -1.719,1.719 -0.949377,0 -1.719,-0.769623 -1.719,-1.719 0,-0.949378 0.769623,-1.719 1.719,-1.719 0.949378,0 1.719,0.769622 1.719,1.719 z" />
+            <path
+               style="fill:#37abc8;fill-opacity:1"
+               inkscape:connector-curvature="0"
+               d="m 10.825,24.711 c 0.396,-1.23 1.229,-2.262 2.312,-2.919 0.086,-1.406 1.238,-2.521 2.65,-2.521 1.368,0 2.494,1.044 2.64,2.388 1.201,0.651 2.121,1.752 2.541,3.074 0.688,-0.717 1.093,-1.587 1.093,-2.524 0,-2.454 -2.755,-4.442 -6.152,-4.442 -3.398,0 -6.153,1.988 -6.153,4.442 0,0.928 0.395,1.787 1.069,2.502 z"
+               id="path4848-7" />
+            <path
+               style="fill:#37abc8;fill-opacity:1"
+               inkscape:connector-curvature="0"
+               d="m 16.485,24.55 c -0.187,-0.062 -0.386,-0.097 -0.592,-0.097 -0.225,0 -0.439,0.041 -0.639,0.113 0.178,0.047 0.147,0.055 -0.038,0.014 -0.706,0.273 -1.21,0.957 -1.21,1.76 0,0.031 0.003,0.062 0.005,0.094 0.598,0.141 1.234,0.217 1.897,0.217 0.65,0 1.276,-0.074 1.865,-0.209 0.001,-0.033 0.005,-0.066 0.005,-0.102 0.001,-0.834 -0.543,-1.541 -1.293,-1.79 z"
+               id="path4850-9" />
+            <path
+               style="fill:#37abc8;fill-opacity:1"
+               inkscape:connector-curvature="0"
+               d="m 15.837,20.059 c -0.959,0 -1.779,0.59 -2.121,1.426 0.665,-0.301 1.401,-0.472 2.178,-0.472 0.722,0 1.41,0.147 2.038,0.408 -0.358,-0.802 -1.16,-1.362 -2.095,-1.362 z"
+               id="path4852-2" />
+            <path
+               style="fill:#37abc8;fill-opacity:1"
+               inkscape:connector-curvature="0"
+               d="m 15.894,21.588 c -2.62,0 -4.752,2.132 -4.752,4.752 0,2.619 2.132,4.752 4.752,4.752 2.619,0 4.751,-2.132 4.751,-4.752 0,-2.621 -2.132,-4.752 -4.751,-4.752 z m 0,7.211 c -1.357,0 -2.46,-1.104 -2.46,-2.459 0,-1.355 1.104,-2.46 2.46,-2.46 1.355,0 2.459,1.104 2.459,2.46 0,1.356 -1.103,2.459 -2.459,2.459 z"
+               id="path4854-2" />
+          </g>
         </g>
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4856-7" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4858-2" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4860-8" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4862-5" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4864-5" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4866-0" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4868-6" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4870-1" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4872-1" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4874-6" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4876-2" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4878-8" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4880-7" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4882-4" />
+        <g
+           style="fill:#37abc8;fill-opacity:1"
+           id="g4884-2" />
       </g>
-      <g
-         id="g4856-7"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4858-2"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4860-8"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4862-5"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4864-5"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4866-0"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4868-6"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4870-1"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4872-1"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4874-6"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4876-2"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4878-8"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4880-7"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4882-4"
-         style="fill:#37abc8;fill-opacity:1" />
-      <g
-         id="g4884-2"
-         style="fill:#37abc8;fill-opacity:1" />
     </g>
     <text
        xml:space="preserve"
