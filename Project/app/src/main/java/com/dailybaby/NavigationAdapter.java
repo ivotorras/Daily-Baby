@@ -3,6 +3,7 @@ package com.dailybaby;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,8 +15,8 @@ public class NavigationAdapter extends BaseAdapter {
     private Activity activity;  
 	ArrayList<Item_objct> arrayitms; 
 
-   public NavigationAdapter(Activity activity,ArrayList<Item_objct>  listarry) {  
-       super();  
+   public NavigationAdapter(Activity activity,ArrayList<Item_objct>  listarry) {
+       super();
        this.activity = activity;  
        this.arrayitms=listarry;
        }     
@@ -45,13 +46,15 @@ public class NavigationAdapter extends BaseAdapter {
       if(convertView==null)  
        {  
            view = new Fila();
+           //Typeface tf= Typeface.createFromAsset(activity.getAssets(), "fonts/Raleway-Thin.otf");
            //Creo objeto item y lo obtengo del array
            Item_objct itm=arrayitms.get(position);
            convertView = inflator.inflate(R.layout.itm, null);
            //Titulo
            view.titulo_itm = (TextView) convertView.findViewById(R.id.title_item);
            //Seteo en el campo titulo el nombre correspondiente obtenido del objeto ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-           view.titulo_itm.setText(itm.getTitulo());           
+          /* view.titulo_itm.setText(itm.getTitulo());
+           view.titulo_itm.setTypeface(tf);*/
            //Icono
            view.icono = (ImageView) convertView.findViewById(R.id.icon);
            //Seteo el icono

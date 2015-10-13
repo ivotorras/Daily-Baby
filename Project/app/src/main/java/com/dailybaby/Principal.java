@@ -1,8 +1,14 @@
 package com.dailybaby;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -17,9 +23,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -42,11 +50,14 @@ public class Principal extends ActionBarActivity
     NavigationAdapter Adaptador;
     private String[] titulos;
     private ListView ListDef;
+    private android.support.design.widget.FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
+        chCeleste();
+        fab = (android.support.design.widget.FloatingActionButton) findViewById(R.id.fab);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -137,5 +148,52 @@ public class Principal extends ActionBarActivity
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }*/
     }
+
+    public AlertDialog ok(View v){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        final CharSequence[] items = new CharSequence[2];
+
+        items[0] = "Rosa";
+        items[1] = "Celeste";
+
+
+        builder.setTitle("Diálogo De Lista")
+                .setItems(items, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        switch (which){
+                            case 0:
+                                chRosa();
+                                break;
+                            case 1:
+                                chCeleste();
+                                break;
+                        }
+                    }
+                });
+
+        return builder.show();
+    }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    public void chCeleste(){
+        Window w = getWindow();
+        w.setStatusBarColor(this.getResources().getColor(R.color.stsCeleste));
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setBackgroundDrawable(new ColorDrawable(this.getResources().getColor(R.color.celeste)));
+        //fab.setBackgroundTintList(ColorStateList.valueOf(this.getResources().getColor(R.color.stsCeleste)));
+
+    }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    public void chRosa(){
+        Window w = getWindow();
+        w.setStatusBarColor(this.getResources().getColor(R.color.stsRosa));
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setBackgroundDrawable(new ColorDrawable(this.getResources().getColor(R.color.rosa)));
+        //fab.setBackgroundTintList(ColorStateList.valueOf(this.getResources().getColor(R.color.stsRosa)));
+    }
+
 
 }
