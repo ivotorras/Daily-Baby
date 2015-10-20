@@ -3,6 +3,7 @@ package com.dailybaby;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -16,6 +17,7 @@ import android.support.v4.app.FragmentManager;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.InputType;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -25,11 +27,14 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Window;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Locale;
 
 
 public class Principal extends ActionBarActivity
@@ -152,22 +157,27 @@ public class Principal extends ActionBarActivity
     public AlertDialog ok(View v){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-        final CharSequence[] items = new CharSequence[2];
+        final CharSequence[] items = new CharSequence[3];
 
         items[0] = "Rosa";
         items[1] = "Celeste";
+        items[2] = "Nuevo Bebe";
 
 
         builder.setTitle("Diálogo De Lista")
                 .setItems(items, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        switch (which){
+                        switch (which) {
                             case 0:
                                 chRosa();
                                 break;
                             case 1:
                                 chCeleste();
+                                break;
+                            case 2:
+                                dialog.dismiss();
+                                createLoginDialogo();
                                 break;
                         }
                     }
@@ -195,5 +205,58 @@ public class Principal extends ActionBarActivity
         //fab.setBackgroundTintList(ColorStateList.valueOf(this.getResources().getColor(R.color.stsRosa)));
     }
 
+
+    public void createLoginDialogo() {
+
+        final EditText peso, altura, sexo, nombre, dia;
+        final View v;
+        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(this);
+
+        LayoutInflater inflater = this.getLayoutInflater();
+
+        v = inflater.inflate(R.layout.newbaby, null);
+        peso = (EditText)findViewById(R.id.txtpeso);
+        altura = (EditText)findViewById(R.id.txtAltura);
+        sexo = (EditText)findViewById(R.id.txtSexo);
+        nombre = (EditText)findViewById(R.id.txtname);
+        dia = (EditText)findViewById(R.id.txtDia);
+
+        sexo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+            }
+        });
+
+        builder.setView(v);
+
+
+        builder.show();
+
+    }
+
+
+    public AlertDialog setSexo(){
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(getApplicationContext());
+
+        final CharSequence[] items = new CharSequence[2];
+
+        items[0] = "Macho";
+        items[1] = "Hembra";
+
+
+        mBuilder.setTitle("Seleccionar Sexo")
+                .setItems(items, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //sexo.setText(items[which].toString());
+                        dialog.dismiss();
+                        Toast.makeText(getApplicationContext(),items[which].toString(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+        return mBuilder.show();
+    }
 
 }

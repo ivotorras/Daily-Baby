@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/newBaby">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nombre del bebe"
+        android:ems="10"
+        android:id="@+id/txtname"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/txtpeso"
+        android:hint="Peso (Kg)"
+        android:layout_below="@+id/txtname"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/txtAltura"
+        android:hint="Altura (Cm)"
+        android:layout_below="@+id/txtpeso"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSexo"
+        android:hint="Sexo"
+        android:layout_below="@+id/txtAltura"
+        android:layout_alignRight="@+id/txtDia"
+        android:layout_alignEnd="@+id/txtDia"
+        android:layout_alignLeft="@+id/txtDia"
+        android:layout_alignStart="@+id/txtDia"
+        android:focusable="false"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/txtDia"
+        android:hint="Fecha de Nacimiento"
+        android:layout_below="@+id/txtSexo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok :)"
+        android:id="@+id/btn"
+        android:layout_below="@+id/txtDia"
+        android:layout_alignRight="@+id/txtDia"
+        android:layout_alignEnd="@+id/txtDia" />
+
+</RelativeLayout>
