@@ -11,17 +11,30 @@
          space available using match_parent in both dimensions. -->
     <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
         android:layout_height="match_parent" >
+
+
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab"
-            android:layout_width="66dp"
-            android:layout_height="66dp"
-            android:layout_gravity="bottom|end"
-            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
             android:layout_marginBottom="16dp"
+            android:src="@drawable/plus"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            app:fabSize="normal"
+            app:borderWidth="0dp"
             app:elevation="6dp"
-            app:fabSize="mini"
             app:pressedTranslationZ="12dp"
-            android:onClick="ok"/>
+            app:rippleColor="@android:color/transparent"
+            android:onClick="ok"
+            android:layout_gravity="right|bottom" />
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendarView"
+            android:layout_gravity="center_horizontal|top" />
 
     </FrameLayout>
 

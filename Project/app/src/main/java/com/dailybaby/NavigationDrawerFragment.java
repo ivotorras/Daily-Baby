@@ -101,23 +101,23 @@ public class NavigationDrawerFragment extends Fragment {
                 selectItem(position);
             }
         });
-        /*mDrawerListView.setAdapter(new ArrayAdapter<String>(
+        mDrawerListView.setAdapter(new ArrayAdapter<String>(
                 getActionBar().getThemedContext(),
                 android.R.layout.simple_list_item_activated_1,
                 android.R.id.text1,
                 new String[]{
                         "Actividad Diaria",
-                        "ario",
+                        "Calendario",
                         "Sleep Time",
                         "Settings",
                 }));
-        /*,
+
                 int[] imagenes= {
                     R.drawable.icono_act,
                     R.drawable.icono_cale,
                     R.drawable.icono_bb,
-                    R.drawable.icono_eng,
-        }*/
+                    R.drawable.icono_eng};
+
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
         return mDrawerListView;
     }

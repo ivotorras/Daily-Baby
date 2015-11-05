@@ -9,7 +9,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.drawable.ColorDrawable;
+import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -32,6 +35,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.dataBase.BaseDeDatos;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Locale;
@@ -49,21 +54,23 @@ public class Principal extends ActionBarActivity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
-    private ArrayList<Item_objct> BarraItms;
-    private TypedArray NavIcons;
+    private ArrayList<Item_objct> barraItms;
+    private TypedArray navIcons;
     private ListView NavList;
-    NavigationAdapter Adaptador;
+    NavigationAdapter adaptador;
     private String[] titulos;
-    private ListView ListDef;
+    private ListView listDef;
     private android.support.design.widget.FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
-        chCeleste();
-        fab = (android.support.design.widget.FloatingActionButton) findViewById(R.id.fab);
 
+        fab = (android.support.design.widget.FloatingActionButton) findViewById(R.id.fab);
+        chCeleste();
+
+        //###########No tocar codigo peligroso
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
@@ -73,30 +80,29 @@ public class Principal extends ActionBarActivity
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
-        ListDef = (ListView) findViewById(R.id.navigation_drawer);
+        listDef = (ListView) findViewById(R.id.navigation_drawer);
         //Declaramos el header el caul sera el layout de header.xml
         View header = getLayoutInflater().inflate(R.layout.header, null);
         //Establecemos header
 
-        ListDef.addHeaderView(header);
+        listDef.addHeaderView(header);
+
         //Tomamos listado  de imgs desde drawable
 
-        NavIcons = getResources().obtainTypedArray(R.array.iconos);
-
+        navIcons = getResources().obtainTypedArray(R.array.iconos);
+        barraItms = new ArrayList<Item_objct>();
         titulos = getResources().getStringArray(R.array.estrings);
 
-        BarraItms = new ArrayList<Item_objct>();
+        for (int i = 0; i < titulos.length; i++) {
+            Item_objct foo =new Item_objct(titulos[i], navIcons.getResourceId(i, -1));
+            barraItms.add(foo);
+        }
+        adaptador= new NavigationAdapter(this,barraItms);
+        listDef.setAdapter(adaptador);
+        //########################  #######
 
-        BarraItms.add(new Item_objct(titulos[0], NavIcons.getResourceId(0, -1)));
 
-        BarraItms.add(new Item_objct(titulos[1], NavIcons.getResourceId(1, -1)));
 
-        BarraItms.add(new Item_objct(titulos[2], NavIcons.getResourceId(2, -1)));
-
-        BarraItms.add(new Item_objct(titulos[3], NavIcons.getResourceId(3, -1)));
-
-        Adaptador= new NavigationAdapter(this,BarraItms);
-        ListDef.setAdapter(Adaptador);
     }
 
     @Override
@@ -136,8 +142,6 @@ public class Principal extends ActionBarActivity
             return fragment;
         }
 
-        public PlaceholderFragment() {
-        }
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -176,8 +180,8 @@ public class Principal extends ActionBarActivity
                                 chCeleste();
                                 break;
                             case 2:
-                                dialog.dismiss();
-                                createLoginDialogo();
+                                Intent i = new Intent(Principal.this, newBaby.class);
+                                startActivity(i);
                                 break;
                         }
                     }
@@ -192,7 +196,7 @@ public class Principal extends ActionBarActivity
         w.setStatusBarColor(this.getResources().getColor(R.color.stsCeleste));
         ActionBar actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(this.getResources().getColor(R.color.celeste)));
-        //fab.setBackgroundTintList(ColorStateList.valueOf(this.getResources().getColor(R.color.stsCeleste)));
+        fab.setBackgroundTintList(ColorStateList.valueOf(this.getResources().getColor(R.color.stsCeleste)));
 
     }
 
@@ -202,61 +206,7 @@ public class Principal extends ActionBarActivity
         w.setStatusBarColor(this.getResources().getColor(R.color.stsRosa));
         ActionBar actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(this.getResources().getColor(R.color.rosa)));
-        //fab.setBackgroundTintList(ColorStateList.valueOf(this.getResources().getColor(R.color.stsRosa)));
-    }
-
-
-    public void createLoginDialogo() {
-
-        final EditText peso, altura, sexo, nombre, dia;
-        final View v;
-        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(this);
-
-        LayoutInflater inflater = this.getLayoutInflater();
-
-        v = inflater.inflate(R.layout.newbaby, null);
-        peso = (EditText)findViewById(R.id.txtpeso);
-        altura = (EditText)findViewById(R.id.txtAltura);
-        sexo = (EditText)findViewById(R.id.txtSexo);
-        nombre = (EditText)findViewById(R.id.txtname);
-        dia = (EditText)findViewById(R.id.txtDia);
-
-        sexo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-
-            }
-        });
-
-        builder.setView(v);
-
-
-        builder.show();
-
-    }
-
-
-    public AlertDialog setSexo(){
-        AlertDialog.Builder mBuilder = new AlertDialog.Builder(getApplicationContext());
-
-        final CharSequence[] items = new CharSequence[2];
-
-        items[0] = "Macho";
-        items[1] = "Hembra";
-
-
-        mBuilder.setTitle("Seleccionar Sexo")
-                .setItems(items, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        //sexo.setText(items[which].toString());
-                        dialog.dismiss();
-                        Toast.makeText(getApplicationContext(),items[which].toString(), Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-        return mBuilder.show();
+        fab.setBackgroundTintList(ColorStateList.valueOf(this.getResources().getColor(R.color.stsRosa)));
     }
 
 }

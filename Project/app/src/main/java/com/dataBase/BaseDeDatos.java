@@ -18,7 +18,7 @@ public class BaseDeDatos extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE IF NOT EXISTS Bebes(id INTEGER PRIMARY KEY AUTOINCREMENT, name Text,date Text, height INTEGER, weight INTEGER)");
+        db.execSQL("CREATE TABLE IF NOT EXISTS Bebes(id INTEGER PRIMARY KEY AUTOINCREMENT, name Text,sexo Text, date Text, height INTEGER, weight INTEGER)");
         db.execSQL("CREATE TABLE IF NOT EXISTS Actividades(id INTEGER PRIMARY KEY AUTOINCREMENT, nameAct Text, date Text, idBebe INTEGER)");
 
     }

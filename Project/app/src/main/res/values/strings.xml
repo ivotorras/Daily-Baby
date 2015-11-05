@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">DailyBaby</string>
-
     <string name="title_activity_principal">Principal</string>
-
-
 
     <string-array name="estrings">
         <item>Actividad Diaria</item>
@@ -23,4 +20,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_example">Example action</string>
+    <string name="title_activity_new_baby">Nuevo Bebe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>

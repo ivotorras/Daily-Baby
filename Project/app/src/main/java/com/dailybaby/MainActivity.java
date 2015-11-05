@@ -37,8 +37,21 @@ public class MainActivity extends Activity {
                 }catch (InterruptedException e){
                     System.out.println(e);
                 }finally {
-                    Intent foo= new Intent(MainActivity.this, Principal.class );
-                    startActivity(foo);
+                    try{
+                        BaseDeDatos dab = new BaseDeDatos(getApplicationContext());
+                        SQLiteDatabase db = dab.getReadableDatabase();
+                        Cursor fila = db.rawQuery("SELECT * from Bebes", null);
+                        if (fila.getCount()!=0){
+                            Intent newAct= new Intent(MainActivity.this, Principal.class );
+                            startActivity(newAct);
+                        }else {
+                            Intent i = new Intent(MainActivity.this, newBaby.class);
+                            startActivity(i);
+
+                        }
+                    }catch (Exception e ){
+                        e.printStackTrace();
+                    }
                 }
             }
         };
